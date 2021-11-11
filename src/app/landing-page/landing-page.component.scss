@@ -95,10 +95,13 @@ color: #fff;
 }
 
 .recents-video{
+  overflow: hidden;
   display: flex;
   justify-content: flex-start;
 }
 
 .video-r{
   object-fit: cover;
+  margin: 3px;
 }
+
