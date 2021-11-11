@@ -35,12 +35,27 @@
       </div>
       <div>
         <h3>GRADE12</h3>
+        <div class="recents-video">
+          <div *ngFor="let video of grad12" >
+            <img width="135" height="207px" class="video-r" src="{{video.url}}" alt="">
+          </div>
+        </div>
       </div>
       <div>
         <h3>GRADE11</h3>
+        <div class="recents-video">
+          <div *ngFor="let video of grad11" >
+            <img width="135" height="207px" class="video-r" src="{{video.url}}" alt="">
+          </div>
+        </div>
       </div>
       <div>
         <h3>GRADE10</h3>
+        <div class="recents-video">
+          <div *ngFor="let video of grad10" >
+            <img width="135" height="207" class="video-r" src="{{video.url}}" alt="">
+          </div>
+        </div>
       </div>
     </div>
   </div>
