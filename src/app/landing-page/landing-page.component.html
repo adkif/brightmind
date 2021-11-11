@@ -1,0 +1,58 @@
+<nav>
+  <div class="logo">
+    <span class="bright">Bright</span>mind
+  </div>
+  <div class="signin">
+    SIGN IN
+  </div>
+</nav>
+<main>
+  <div class="carroussel">
+    <img src="/assets/images/cpp_s3fs-public_2020-03_aspect_xl_large_Hero Banner-4.png" width="100%" alt="" class="carrousel">
+  </div>
+  <div id="main-wrapper">
+    <div class="main-center">
+      <div class="sb">
+        <button type="submit" class="search"><i class="fa fa-search"></i></button>
+        <input type="search" class="" placeholder="Search by Grade, Subject or Video">
+      </div>
+      <div class="list">
+        <ul>
+          <li>CAPS</li>
+          <li>CIE</li>
+          <li>IEB</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <h3>RECENTLY WATCH</h3>
+        <div class="recents-video">
+          <div *ngFor="let recent of recents" >
+            <img width="200px" height="112.5px" class="video-r" src="{{recent.url}}" alt="">
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>GRADE12</h3>
+      </div>
+      <div>
+        <h3>GRADE11</h3>
+      </div>
+      <div>
+        <h3>GRADE10</h3>
+      </div>
+    </div>
+  </div>
+</main>
+<hr>
+<footer>
+  <div>
+    <button class="up"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+      <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+    </svg></button>
+  </div>
+  <div class="logo">
+    <span class="bright">Bright</span>mind
+  </div>
+</footer>

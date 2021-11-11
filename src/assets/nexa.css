@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "nexa";
+  src: url("/assets/nexa/Nexa\ Bold.otf") format("otf"),
+         url("/assets/nexa/Nexa\ Light.otf") format("otf");
+ }
