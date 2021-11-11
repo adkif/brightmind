@@ -39,7 +39,8 @@ nav{
   list-style-type: none;
   padding: 5px;
   border: 1px solid black;
-  width: 100px;
+  min-width: 40px;
+  max-width: 80px;
 }
 
 ul> li:nth-child(1){
@@ -85,6 +86,7 @@ i{
   object-fit: cover;
   margin-top: 51px;
   margin-bottom: 61px;
+  overflow: auto;
 }
 
 .logo{
@@ -97,7 +99,7 @@ color: #fff;
 }
 
 .recents-video{
-  overflow: hidden;
+  overflow: scroll;
   display: flex;
   justify-content: flex-start;
 }
@@ -106,4 +108,5 @@ color: #fff;
   object-fit: cover;
   margin: 3px;
 }
+
 
