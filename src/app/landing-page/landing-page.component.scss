@@ -85,9 +85,16 @@ i{
 .carousel{
   display: block;
   height: 500px;
-  width: 1200px;
+  width: 1920px;
   object-fit: cover;
   padding: 2em;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1440px) {
+  .carousel {
+    width: 1024px;
+  }
 }
 
 /* On screens that are 992px or less, set the background color to blue */
@@ -98,14 +105,21 @@ i{
 }
 
 /* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 823px) {
   .carousel {
-    width: 500px;
+    width: 720px;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 667px) {
+  .carousel {
+    width: 540px;
   }
 }
 
 /* On screens that are 400px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 420px) {
   .carousel {
     width: 375px;
   }
