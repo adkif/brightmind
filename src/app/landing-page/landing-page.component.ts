@@ -12,6 +12,10 @@ export class LandingPageComponent implements OnInit {
   grad12: IVideo[] | undefined;
   grad11: IVideo[] | undefined;
   grad10: IVideo[] | undefined;
+  slides = [
+    {src:"/assets/images/cpp_s3fs-public_2020-03_aspect_xl_large_Hero Banner-4.png"},
+    {src:"/assets/images/cpp_s3fs-public_2020-03_aspect_xl_large_Hero Banner-5 (1).png"}
+  ]
   constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
